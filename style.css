@@ -1,0 +1,983 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mai-contaner {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading h1 {
+    font-size: 70px;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+    border: 1px solid grey;
+    display: flex;
+
+}
+
+.icon {
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    width: 800px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.link li {
+    list-style: none;
+}
+
+.link {
+    position: relative;
+    left: 300px;
+}
+.menu-bar{
+    display: none;
+}
+/* --benner */
+.benner{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    background-image: url(./img/Interior-Design-Multitude-of-Sins-Bangalore-Sandpaper-_-Silk-view-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.lines{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.lines h4{
+    padding-top: 10px;
+    color: rgb(49, 46, 46);
+}
+.lines h2{
+    color: rgb(43, 41, 41);
+    padding-top: 20px;
+   
+}
+.hr{
+    width: 90%;
+    height: 3px;
+    background-color: grey;
+    
+}
+/* --- hero-section---- */
+.hero-section{
+    width: 100%;
+    height: 750px;
+    /* border: 1px solid black; */
+}
+.hero-section h2{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.image{
+    width: 100%;
+    height: 700px;
+     /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.left{
+    width: 30%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.mg-1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    background-image: url(./img/1stimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items:start;
+    flex-direction: column;
+    background-color: white;
+}
+.text h3,h5,p{
+    margin: 10px;
+}
+.text p{
+    font-size: 18px;
+}
+.text h5{
+    padding-top: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text h3:hover{
+    color: orangered;
+    
+}
+
+
+.mind{
+    width: 30%;
+    height: 600px;
+    /* border: 1px solid black; */
+    
+}
+.mg-2{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    background-image: url(./img/2nd\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.right{
+    width: 30%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.mg-3{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    background-image: url(./img/3rd\ img.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.submit{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color:papayawhip;
+    display: flex;
+}
+.frist{
+    width: 50%;
+    height: 300px ;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.frist h3{
+    font-size: 25px;
+    color: rgb(15, 15, 15);
+}
+.frist p{
+    font-size: 18px;
+    color: rgb(20, 19, 19);
+}
+.in{
+    width: 450px;
+   
+}
+.in input{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+}
+.in label{
+    font-size: 20px;
+   
+}
+.in button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(196, 78, 35);
+    color: white;
+    font-size: 15px;
+}
+.in button:hover{
+    color: black;
+    background-color: rgb(231, 134, 98);
+    
+}
+.sec{
+    width: 50%;
+    height: 300px ;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sec img{
+    width: 300px;
+}
+/* -- photo-section--- */
+.photo-section{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.photo-section h1{
+    position: relative;
+    right: 550px;
+    font-size:28px;
+  
+}
+.photo-section h2{
+    color: rgb(36, 35, 35);
+    font-size: 22px;
+}
+span{
+    position: relative;
+    left: 600px;
+    font-size: 28px;
+    color: rgb(223, 114, 75);
+}
+span i:hover{
+    color: orange;
+    
+}
+
+
+.bbnnr{
+    width: 90%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-image: url(./img/id_hip_2023-poltrona_frau_thru_haworth-bay_system.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ------------------- */
+.picks{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.editor{
+    width: 80%;
+    height: 250px;
+    /* border: 1px solid brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.picks h2{
+    padding-right: 70%;
+}
+.box-1{
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.p{
+    width:50%;
+    height: 200px;
+    /* border: 1px solid black; */
+    background-image: url(./img/Interior-Design-Pricefx-CollColl-Prague-idx230601_collcoll09-1024x762.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.d{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+
+}
+.d p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.d p:hover{
+    color: orangered;
+}
+.one{
+    width:50%;
+    height: 200px;
+    /* border: 1px solid black; */
+    background-image: url(./img/Interior-Design-ID23_BoY_site-1024x1024.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.two{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+
+}
+.two p{
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.two p:hover{
+    color: orangered;
+}
+.hp{
+    width:50%;
+    height: 200px;
+    /* border: 1px solid black; */
+    background-image: url(./img/Interior-Design-pink-interiors-Interior-Design-Nadine-Rouphael-22_10_16_Art_Of_Living-043-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.sd{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+
+
+}
+.sd p{
+    font-size: 18px;
+    font-weight: 700;
+    
+
+}
+.sd p:hover{
+    color: orangered;
+}
+/* ----box-secound----- */
+
+.box-secound{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.colorful{
+    width: 80%;
+    height: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.clor-1{
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+
+}
+.par-1{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+    background-image: url(./img/last-1img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.par-2{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.par-2 p{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.par-2 p:hover{
+    color: orangered;
+}
+/* ------- */
+.clor-2{
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+
+
+}
+.g-g{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+    background-image: url(./img/last-2img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.ch-ch{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+
+}
+.ch-ch p{
+    font-size: 18px;
+    font-weight: 700;
+
+
+}
+.ch-ch p:hover{
+    color: orangered;
+}
+/* ------- */
+.clor-3{
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.pun-1{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+    background-image: url(./img/last-3img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pun-2{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.pun-2 p{
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.pun-2 p:hover{
+    color: orangered;
+    
+    
+}
+/* ----backgraound-color-------- */
+.color{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.color-pink{
+    width: 90%;
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 0%, rgba(253,79,43,1) 53%);
+  
+   
+   
+   
+}
+.read{
+    width: 30%;
+    height: 400px;
+    /* border: 1px solid black; */
+    background-image: url(./img/Interior-Design-Best-in-Design-Book-2022-Cover_high.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+.now{
+    width: 30%;
+    height: 400px;
+    /* border: 1px solid black; */
+    padding-left: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.now h2{
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.now h4{
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.now button{
+    width: 150px;
+    height: 50px;
+    border: 4px solid white;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+}
+/* ---footer-section------- */
+.footer{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phla{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+   
+}
+.dusra{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+.dusra li{
+    list-style: none;
+    margin: 15px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tisra{
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.design{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ 
+  
+}
+.iccon{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.iccon i{
+    margin: 20px;
+    font-size: 28px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .mai-contaner{
+        width: 100%;
+        height: auto;
+    }
+    .heading{
+        width: 100%;
+        height: auto;
+    }
+    .heading h1{
+        font-size: 28px;
+    }
+    .nav-bar{
+        width: 100%;
+        height: auto;
+    }
+    .icon{
+        width: 20%;
+        font-size: 20px;
+    }
+    .menu-bar{
+        width: 100%;
+        display: flex;
+        padding-left: 80%;
+        padding-top: 15px;
+        
+    }
+    .menu-bar i{
+        font-size: 20px;
+    }
+    .link{
+        display: none;
+    }
+    .menu-bar{
+        display: inline;
+    }
+    .benner{
+        width: 100%;
+        height: 400px;
+    }
+    .lines{
+        width: 100%;
+        height: auto;
+    }
+    .lines h4{
+        font-size: 15px;
+    }
+    .lines h2{
+        font-size: 20px;
+    }
+    .hero-section{
+        width: 100%;
+        height: auto;
+    }
+    .hero-section h2{
+        font-size: 20px;
+    }
+    .image{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .left{
+        width: 100%;
+        height: 600px;
+    }
+    .mind{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .text p br{
+        display:none;
+    }
+    .text h3 br{
+        display: none;
+    }
+    .text h3{
+        font-size: 16px;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    .submit{
+        width: 100%;
+        height: auto;
+    }
+    .frist{
+        width: 100%;
+        height: 300px;
+    }
+    .frist h3{
+        font-size: 20px;
+    }
+    .frist p{
+        font-size: 15px;
+    }
+    .frist p br{
+        display: none;
+    }
+    .in{
+        width: 290px;
+    }
+    .sec{
+        display: none;
+    }
+    .photo-section{
+        width: 100%;
+        height: auto;
+    }
+    .photo-section h1{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+    .photo-section h2{
+        font-size: 15px;
+    }
+    .in label{
+        font-size: 15px;
+    }
+    .in input{
+        width: 200px;
+        height: 30px;
+    }
+    .in button{
+        width: 80px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .picks{
+        width: 100%;
+        height: auto;
+    }
+    .picks h2{
+        font-size: 15px;
+    }
+    .editor{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .box-1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .p{
+        width: 100%;
+        height: 200px;
+    }
+    .d{
+        width: 100%;
+        height: auto;
+    }
+    .d p br{
+        display: none;
+    }
+    .d p{
+        font-size: 15px;
+    }
+    .one{
+        width: 100%;
+        height: 200px;
+    }
+    .two{
+        width: 100%;
+        height: auto;
+    }
+    .two p{
+        font-size: 15px;
+    }
+    .two p br{
+        display: none;
+    }
+    .hp{
+        width: 100%;
+        height: 200px;
+    }
+    .sd{
+        width: 100%;
+        height: auto;
+    }
+    .sd p{
+        font-size: 15px;
+    }
+    .sd p br{
+        display: none;
+
+    }
+    /* -----box-secound------ */
+    .box-secound{
+        width: 100%;
+        height: auto;
+    }
+    .colorful{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .clor-1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+    .par-1{
+        width: 100%;
+        height: 200px;
+    }
+    .par-2{
+        width: 100%;
+        height: auto;
+    }
+    .par-2 p br{
+        display: none;
+    }
+    .par-2 p{
+        font-size: 15px;
+    }
+    .clor-2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .g-g{
+        width: 100%;
+        height: 200px;
+    }
+    .ch-ch{
+        width: 100%;
+        height: auto;
+    }
+    .ch-ch p br{
+        display: none;
+
+    }
+    .ch-ch p{
+        font-size: 15px;
+    }
+    .clor-3{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .pun-1{
+        width: 100%;
+        height: 200px;
+    }
+    .pun-2{
+        width: 100%;
+        height: auto;
+    }
+    .pun-2 p br{
+        display: none;
+    }
+    .pun-2 p{
+        font-size: 15px;
+    }
+    .color{
+        width: 100%;
+        height: auto;
+    }
+    .color-pink{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .read{
+        width: 100%;
+        height: 400px;
+    }
+    .now{
+        width: 100%;
+        height: auto;
+    }
+    .now h2{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .now h4{
+        font-size: 14px;
+    }
+    .now button{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    /* -------- */
+    .footer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+    .phla{
+        width: 100%;
+        height: auto;
+    }
+    .dusra{
+        width: 100%;
+        height: auto;
+        align-items: start;
+        flex-direction: column;
+    }
+    .tisra{
+        width: 100%;
+        height: auto;
+    }
+    .iccon i{
+        font-size: 20px;
+    }
+    }
+    
+    
+    
